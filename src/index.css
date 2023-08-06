@@ -1,0 +1,28 @@
+:root {
+  --white: #FFFFFF;
+  --shadows: #9F84C5;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+* ::after,
+*::before {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  margin: 0;
+}

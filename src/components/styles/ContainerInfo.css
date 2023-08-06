@@ -1,0 +1,45 @@
+.containerInfo_title {
+    text-shadow: 10px 10px 10px var(--shadows);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Handjet';
+    text-transform: uppercase;
+    color: white;
+    transition: all 200ms ease-in-out;
+
+}
+
+.containerInfo_title:hover {
+    transform: scale(2.5);
+}
+
+.sub_container {
+    border-radius: 30px;
+    color: white;
+    border: solid white;
+    border-color: rgb(156, 156, 156);
+    height: 50px;
+    background-color: rgb(255, 251, 251);
+}
+
+.containerInfo_phrase {
+
+    border-radius: 30px;
+    font-family: 'Handjet';
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(156, 156, 156);
+    opacity: 0.4;
+}
+
+.containerInfo_author {
+    font-family: 'Handjet';
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+}
