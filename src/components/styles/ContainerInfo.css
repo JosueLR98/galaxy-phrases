@@ -1,6 +1,10 @@
 .containerInfo_title {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
     text-shadow: 10px 10px 10px var(--shadows);
-    font-size: 35px;
+    font-size: 70px;
     font-weight: bold;
     text-align: center;
     font-family: 'Handjet';
@@ -20,26 +24,34 @@
     border: solid white;
     border-color: rgb(156, 156, 156);
     height: 50px;
-    background-color: rgb(255, 251, 251);
+    background-color: rgba(255, 0, 0, 0.587);
 }
 
 .containerInfo_phrase {
-
+    margin: 30px;
     border-radius: 30px;
     font-family: 'Handjet';
     font-weight: 900;
-    font-size: 50px;
+    font-size: 70px;
     text-transform: uppercase;
     text-align: center;
     display: flex;
     flex-direction: column;
     background-color: rgb(156, 156, 156);
     opacity: 0.4;
+    background-repeat: no-repeat;
 }
 
 .containerInfo_author {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
     font-family: 'Handjet';
     font-weight: lighter;
     text-align: center;
+    font-size: 30px;
+    text-shadow: 10px 10px 10px var(--shadows);
     color: white;
 }

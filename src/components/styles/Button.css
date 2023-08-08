@@ -1,0 +1,16 @@
+.container_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    border-radius: 10px;
+    font-family: 'Handjet';
+    font-weight: 900;
+    font-size: 50px;
+    opacity: 0.8;
+    border-color: red;
+    text-shadow: 10px 10px 10px var(--shadows);
+    box-shadow: 20px 20px 20px yellow;
+}

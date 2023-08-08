@@ -6,7 +6,7 @@ import "./styles/ContainerInfo.css";
 const ContainerInfo = ({ quote, handleNewQuote }) => {
   return (
     <div>
-      <section>
+      <section className="container">
         <h1 className="containerInfo_title">Info Galax</h1>
         <Button handleNewQuote={handleNewQuote} />
         <article className="containerInfo_phrase">

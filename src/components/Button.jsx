@@ -1,9 +1,12 @@
 import React from "react";
+import "./styles/Button.css";
 
 const Button = ({ handleNewQuote }) => {
   return (
-    <div>
-      <button onClick={handleNewQuote}>Probar Suerte </button>
+    <div className="container_button">
+      <button className="button" onClick={handleNewQuote}>
+        Probar Suerte
+      </button>
     </div>
   );
 };
